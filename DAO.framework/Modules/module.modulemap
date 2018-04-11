@@ -1,0 +1,11 @@
+framework module DAO {
+  umbrella header "DAO.h"
+
+  export *
+  module * { export * }
+}
+
+module DAO.Swift {
+    header "DAO-Swift.h"
+    requires objc
+}
